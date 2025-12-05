@@ -105,7 +105,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     // ----------------------------
-    // DRAG & DROP CORRIGIDO
+    // DRAG & DROP
     // ----------------------------
     let draggedRow = null;
 
