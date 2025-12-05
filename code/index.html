@@ -1,0 +1,50 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabela de Void – Grand Chase</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<h2>Controle de Void – Grand Chase</h2>
+
+<div class="floor-selector">
+    <label><input type="radio" name="floor" value="6" checked /> 3F</label>
+    <label><input type="radio" name="floor" value="7" /> 4F</label>
+</div>
+
+<div class="global-reset">
+    <button class="reset-global" data-reset="1">Reset Geral V1</button>
+    <button class="reset-global" data-reset="2">Reset Geral V2</button>
+    <button class="reset-global" data-reset="3">Reset Geral V3</button>
+</div>
+
+<div class="table-container">
+<table id="voidTable">
+    <thead>
+    <tr>
+        <th></th>
+        <th>Icon</th>
+        <th>Nome</th>
+        <th>Void 1</th>
+        <th>Void 2</th>
+        <th>Void 3</th>
+        <th>V1</th>
+        <th>V2</th>
+        <th>V3</th>
+        <th>Reset V1</th>
+        <th>Reset V2</th>
+        <th>Reset V3</th>
+    </tr>
+    </thead>
+
+    <tbody id="dragBody">
+        <!-- Linhas geradas pelo script.js -->
+    </tbody>
+</table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
