@@ -113,3 +113,25 @@ button:active {
 .dragging {
     opacity: 0.35;
 }
+
+.orderSelect {
+    color: red;
+}
+
+.table-controls {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#voidSelect, #sortBtn, #orderSelect, #resetOrderBtn {
+     background: #333;
+    color: #ddd;
+    padding: 4px 8px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.select1 {
+    font-weight: bold;
+}
