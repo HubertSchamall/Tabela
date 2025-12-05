@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         tr.innerHTML = `
             <td class="drag-handle-cell"><span class="drag-handle" draggable="true">≡</span></td>
-            <td><img src="../icons/${char.icon}" class="icon" alt="${char.name}"></td>
+            <td><img src="icons/${char.icon}" class="icon" alt="${char.name}"></td>
             <td>${char.name}</td>
 
             <td><input type="number" class="void-input v1" value="0" min="0"></td>
