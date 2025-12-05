@@ -1,5 +1,5 @@
 const characters = [
-    { name: "Elesis", icon: "elesis.png" },
+    { name: "Elesis", icon: "Elesis.png" },
     { name: "Lire", icon: "lire.png" },
     { name: "Arme", icon: "arme.png" },
     { name: "Lass", icon: "lass.png" },
